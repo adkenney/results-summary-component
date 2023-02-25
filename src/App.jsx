@@ -1,5 +1,11 @@
+import ResultOverview from './components/ResultOverview';
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <ResultOverview />
+    </div>
+  );
 }
 
 export default App;
