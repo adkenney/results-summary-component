@@ -4,10 +4,9 @@ import ResultSummary from './components/ResultSummary';
 
 function App() {
   const [data, setData] = useState([]);
-
   async function fetchData() {
     try {
-      const response = await fetch('../src/assets/data/data.json');
+      const response = await fetch('../public/data/data.json');
       if (!response.ok) {
         throw new Error('Cant load data');
       }
