@@ -1,8 +1,4 @@
 import React from 'react';
-import { ReactComponent as MemoryIcon } from '../assets/images/icon-memory.svg';
-import { ReactComponent as ReactionIcon } from '../assets/images/icon-reaction.svg';
-import { ReactComponent as VerbalIcon } from '../assets/images/icon-verbal.svg';
-import { ReactComponent as VisualIcon } from '../assets/images/icon-visual.svg';
 
 export default function ResultSummary({ data }) {
   function getCategoryClass(category) {
