@@ -1,6 +1,6 @@
 import ResultOverview from './components/ResultOverview';
 import ResultSummary from './components/ResultSummary';
-import data from '../public/data/data.json';
+import data from '../src/assets/data/data.json';
 
 function App() {
   return (
